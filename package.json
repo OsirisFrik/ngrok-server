@@ -1,0 +1,22 @@
+{
+  "name": "ngrok-server",
+  "version": "1.0.0",
+  "description": "simple ngrok server",
+  "main": "src/index.js",
+  "repository": "https://github.com/OsirisFrik/ngrok-server",
+  "author": "OsirisFrik",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ngrok": "^3.2.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
